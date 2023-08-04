@@ -1,7 +1,5 @@
-import Image from 'next/image'
+import ButtonLink from "@/components/ButtonLink";
 
 export default function Home() {
-  return (
-    <h1>Proxy Fathom</h1>
-  )
+  return <ButtonLink href="/second">Go to second page</ButtonLink>;
 }
