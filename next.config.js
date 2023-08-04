@@ -8,7 +8,7 @@ const nextConfig = {
       },
       {
         source: "/",
-        destination: "https://www.heise.de/",
+        destination: "https://cdn.usefathom.com",
         has: [
           {
             type: "query",
