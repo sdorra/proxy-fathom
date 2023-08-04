@@ -8,7 +8,7 @@ export default function Analytics() {
     Fathom.load("IVBPNICR", {
       includedDomains: ["proxy-fathom.sdorra.dev"],
       spa: "auto",
-      url: "/script.js"
+      url: "https://proxy-fathom.sdorra.dev/script.js"
     });
   }, []);
   return null;
