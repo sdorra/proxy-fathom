@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import ButtonLink from "@/components/ButtonLink";
+import Analytics from "@/components/Analytics";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -61,6 +62,7 @@ export default function RootLayout({
         <footer className="text-right text-muted-foreground text-sm mr-2">
           <p>Made with ❤️ by Sebastian Sdorra</p>
         </footer>
+        <Analytics />
       </body>
     </html>
   );
